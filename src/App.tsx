@@ -48,12 +48,10 @@ const Header = () => (
           EDICIÓN ESPECIAL 2024
         </span>
         <button className="cta-primary px-6 py-2.5 rounded-full text-sm font-semibold whitespace-nowrap">
-  onClick={() => window.open("https://pay.hotmart.com/L105785496G", '_blank')}
->
+                onClick={() => window.open("https://pay.hotmart.com/L105785496G", '_blank')}
+        >
   QUIERO MI ACCESO
 </button>
-          QUIERO MI ACCESO
-        </button>
       </div>
     </div>
   </header>
@@ -103,9 +101,9 @@ const Hero = () => (
           </div>
           
           <button className="cta-primary w-full sm:w-auto px-10 py-5 rounded-2xl text-lg font-bold flex items-center justify-center gap-3">
-          onClick={() => window.open("https://pay.hotmart.com/L105785496G", '_blank')}
+                  onClick={() => window.open("https://pay.hotmart.com/L105785496G", '_blank')}
             QUIERO DESINFLAMAR MI CUERPO AHORA
-            <ArrowRight className="w-5 h-5" />
+                  <ArrowRight className="w-5 h-5" />
           </button>
           
           <div className="mt-8 flex items-center gap-4 text-xs text-brand-gold/60 font-badge">
@@ -267,9 +265,10 @@ const PriceSection = () => (
           <p className="text-brand-gold/60 text-sm font-badge mb-10">PAGO ÚNICO • ACCESO INMEDIATO</p>
           
           <button className="cta-primary w-full py-6 rounded-2xl text-xl font-bold flex items-center justify-center gap-3 group">
-           onClick={() => window.open("https://pay.hotmart.com/L105785496G", '_blank')}
+                  onClick={() => window.open("https://pay.hotmart.com/L105785496G", '_blank')}
+          > 
             QUIERO MI ACCESO AHORA
-            <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
+                  <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
           </button>
         </div>
         
@@ -551,7 +550,8 @@ const UrgencySection = () => {
         </div>
         
         <button className="cta-primary px-12 py-7 rounded-[32px] text-2xl font-bold shadow-[0_20px_60px_rgba(244,196,48,0.3)] group">
-         onClick={() => window.open("https://pay.hotmart.com/L105785496G", '_blank')}
+                onClick={() => window.open("https://pay.hotmart.com/L105785496G", '_blank')}
+         > 
           SÍ, QUIERO ACCESO INMEDIATO →
         </button>
         
@@ -624,7 +624,8 @@ const FooterCTA = () => (
           Has llegado hasta aquí porque sabes que mereces sentirte mejor. El Sistema Antiinflamatorio Progresivo es tu pasaporte a una nueva vida.
         </p>
         <button className="cta-primary px-16 py-8 rounded-[36px] text-2xl font-bold w-full sm:w-auto shadow-[0_30px_70px_rgba(0,0,0,0.6)] group">
-         onClick={() => window.open("https://pay.hotmart.com/L105785496G", '_blank')}
+                onClick={() => window.open("https://pay.hotmart.com/L105785496G", '_blank')}
+         > 
           SÍ, QUIERO TRANSFORMAR MI CUERPO HOY
           <ArrowRight className="inline-block ml-3 group-hover:translate-x-2 transition-transform" />
         </button>
@@ -723,7 +724,8 @@ export default function App() {
         className="md:hidden fixed bottom-0 left-0 right-0 p-4 z-50 bg-brand-bg/95 backdrop-blur-xl border-t border-white/10"
       >
         <button className="cta-primary w-full py-5 rounded-2xl font-bold flex items-center justify-center gap-3 text-lg shadow-2xl">
-         onClick={() => window.open("https://pay.hotmart.com/L105785496G", '_blank')}
+                onClick={() => window.open("https://pay.hotmart.com/L105785496G", '_blank')}
+         > 
           ¡QUIERO MI TRANSFORMACIÓN! <ArrowRight size={20} />
         </button>
       </motion.div>
